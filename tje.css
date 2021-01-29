@@ -1,0 +1,72 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    text-align: center;
+}
+
+.menu > li {
+    float: left;
+}
+
+.menu > li:not(:last-child) {
+    margin-right: 60px
+}
+
+.text {
+    text-align: center;
+    color: purple;
+}
+
+.texts {
+    text-align: center;
+    color: blue;
+}
+
+.textss {
+    text-align: center;
+    color: yellow;
+}
+
+.index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: right;
+}
+
+.inde {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.indexs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: left;
+}
+
+.section {
+    position: relative;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 35px;
+}
+
+.pic {
+    padding-left: 20px;
+    position: sticky;
+    top: 20px;
+    left: 0;
+    width: 20%
+}
